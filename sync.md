@@ -1013,3 +1013,14 @@ https://www.cnblogs.com/gaochundong/p/lock_free_programming.html
 https://en.cppreference.com/w/cpp/atomic/memory_order
 
 https://github.com/brpc/brpc/blob/master/docs/cn/atomic_instructions.md
+
+FAQ
+
+Q: 非饥饿模式下，有可能不一定是先lock的先释放呗？
+
+A: 
+
+Q: 既然被选中了唤醒的那个G，说明这个G就是一定要退出lock方法了，也就是被选中的抢到锁的人了。
+
+A:
+
